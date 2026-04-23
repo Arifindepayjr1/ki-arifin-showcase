@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { Code2, Menu, X } from "lucide-react";
-import { Button } from "@/components/ui/button";
-import { cn } from "@/lib/utils";
+import { Button } from "../ui/button";
+import { cn } from "../../lib/utils";
 
 const links = [
   { href: "#about", label: "About" },

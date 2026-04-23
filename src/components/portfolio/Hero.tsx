@@ -1,6 +1,6 @@
-import { ArrowRight, Github, Mail, MapPin } from "lucide-react";
-import { Button } from "@/components/ui/button";
-import avatar from "@/assets/avatar.jpg";
+import { ArrowRight, Mail, MapPin } from "lucide-react";
+import { Button } from "../../components/ui/button";
+import avatar from "../../assets/avatar.jpg";
 
 const Hero = () => {
   return (
@@ -52,7 +52,7 @@ const Hero = () => {
               </Button>
               <Button asChild variant="ghost" size="lg">
                 <a href="https://github.com/Arifindepayjr1" target="_blank" rel="noreferrer">
-                  <Github className="w-4 h-4" /> GitHub
+                  <Mail className="w-4 h-4" /> GitHub
                 </a>
               </Button>
             </div>

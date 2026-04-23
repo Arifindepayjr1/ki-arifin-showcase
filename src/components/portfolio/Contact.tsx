@@ -1,5 +1,5 @@
-import { Github, Mail, MapPin, Phone } from "lucide-react";
-import { Button } from "@/components/ui/button";
+import {  Mail, MapPin, Phone } from "lucide-react";
+import { Button } from "../ui/button";
 import SectionHeading from "./SectionHeading";
 
 const items = [
@@ -16,7 +16,7 @@ const items = [
     href: "tel:+85593569289",
   },
   {
-    icon: Github,
+    icon: Mail,
     label: "GitHub",
     value: "github.com/Arifindepayjr1",
     href: "https://github.com/Arifindepayjr1",
@@ -52,7 +52,7 @@ const Contact = () => {
                 </Button>
                 <Button asChild variant="glass" size="lg">
                   <a href="https://github.com/Arifindepayjr1" target="_blank" rel="noreferrer">
-                    <Github className="w-4 h-4" /> View GitHub
+                    <Mail className="w-4 h-4" /> View GitHub
                   </a>
                 </Button>
               </div>
